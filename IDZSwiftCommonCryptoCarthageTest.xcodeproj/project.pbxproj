@@ -12,7 +12,7 @@
 		3012B12E1BAA481A008504EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3012B12C1BAA481A008504EB /* Main.storyboard */; };
 		3012B1301BAA481A008504EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3012B12F1BAA481A008504EB /* Assets.xcassets */; };
 		3012B1331BAA481A008504EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3012B1311BAA481A008504EB /* LaunchScreen.storyboard */; };
-		3012B13B1BAA4945008504EB /* IDZSwiftCommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3012B13A1BAA4945008504EB /* IDZSwiftCommonCrypto.framework */; settings = {ASSET_TAGS = (); }; };
+		3012B13B1BAA4945008504EB /* IDZSwiftCommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3012B13A1BAA4945008504EB /* IDZSwiftCommonCrypto.framework */; };
 		3012B13C1BAA49B0008504EB /* IDZSwiftCommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3012B13A1BAA4945008504EB /* IDZSwiftCommonCrypto.framework */; };
 		3012B13D1BAA49B0008504EB /* IDZSwiftCommonCrypto.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3012B13A1BAA4945008504EB /* IDZSwiftCommonCrypto.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
@@ -112,6 +112,7 @@
 		3012B11D1BAA481A008504EB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "iOS Developer Zone";
 				TargetAttributes = {
