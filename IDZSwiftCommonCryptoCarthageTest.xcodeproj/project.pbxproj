@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3012B1291BAA481A008504EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3012B1281BAA481A008504EB /* AppDelegate.swift */; };
+		3012B12B1BAA481A008504EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3012B12A1BAA481A008504EB /* ViewController.swift */; };
+		3012B12E1BAA481A008504EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3012B12C1BAA481A008504EB /* Main.storyboard */; };
+		3012B1301BAA481A008504EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3012B12F1BAA481A008504EB /* Assets.xcassets */; };
+		3012B1331BAA481A008504EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3012B1311BAA481A008504EB /* LaunchScreen.storyboard */; };
+		3012B13B1BAA4945008504EB /* IDZSwiftCommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3012B13A1BAA4945008504EB /* IDZSwiftCommonCrypto.framework */; settings = {ASSET_TAGS = (); }; };
+		3012B13C1BAA49B0008504EB /* IDZSwiftCommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3012B13A1BAA4945008504EB /* IDZSwiftCommonCrypto.framework */; };
+		3012B13D1BAA49B0008504EB /* IDZSwiftCommonCrypto.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3012B13A1BAA4945008504EB /* IDZSwiftCommonCrypto.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3012B13E1BAA49B0008504EB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3012B13D1BAA49B0008504EB /* IDZSwiftCommonCrypto.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3012B1251BAA481A008504EB /* IDZSwiftCommonCryptoCarthageTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IDZSwiftCommonCryptoCarthageTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3012B1281BAA481A008504EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3012B12A1BAA481A008504EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3012B12D1BAA481A008504EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3012B12F1BAA481A008504EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3012B1321BAA481A008504EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3012B1341BAA481A008504EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3012B13A1BAA4945008504EB /* IDZSwiftCommonCrypto.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IDZSwiftCommonCrypto.framework; path = Carthage/Build/iOS/IDZSwiftCommonCrypto.framework; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3012B1221BAA481A008504EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3012B13C1BAA49B0008504EB /* IDZSwiftCommonCrypto.framework in Frameworks */,
+				3012B13B1BAA4945008504EB /* IDZSwiftCommonCrypto.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3012B11C1BAA481A008504EB = {
+			isa = PBXGroup;
+			children = (
+				3012B1271BAA481A008504EB /* IDZSwiftCommonCryptoCarthageTest */,
+				3012B1261BAA481A008504EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3012B1261BAA481A008504EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3012B1251BAA481A008504EB /* IDZSwiftCommonCryptoCarthageTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3012B1271BAA481A008504EB /* IDZSwiftCommonCryptoCarthageTest */ = {
+			isa = PBXGroup;
+			children = (
+				3012B1281BAA481A008504EB /* AppDelegate.swift */,
+				3012B12A1BAA481A008504EB /* ViewController.swift */,
+				3012B12C1BAA481A008504EB /* Main.storyboard */,
+				3012B12F1BAA481A008504EB /* Assets.xcassets */,
+				3012B1311BAA481A008504EB /* LaunchScreen.storyboard */,
+				3012B1341BAA481A008504EB /* Info.plist */,
+				3012B13A1BAA4945008504EB /* IDZSwiftCommonCrypto.framework */,
+			);
+			path = IDZSwiftCommonCryptoCarthageTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3012B1241BAA481A008504EB /* IDZSwiftCommonCryptoCarthageTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3012B1371BAA481A008504EB /* Build configuration list for PBXNativeTarget "IDZSwiftCommonCryptoCarthageTest" */;
+			buildPhases = (
+				3012B1211BAA481A008504EB /* Sources */,
+				3012B1221BAA481A008504EB /* Frameworks */,
+				3012B1231BAA481A008504EB /* Resources */,
+				3012B13E1BAA49B0008504EB /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IDZSwiftCommonCryptoCarthageTest;
+			productName = IDZSwiftCommonCryptoCarthageTest;
+			productReference = 3012B1251BAA481A008504EB /* IDZSwiftCommonCryptoCarthageTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3012B11D1BAA481A008504EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "iOS Developer Zone";
+				TargetAttributes = {
+					3012B1241BAA481A008504EB = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 3012B1201BAA481A008504EB /* Build configuration list for PBXProject "IDZSwiftCommonCryptoCarthageTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3012B11C1BAA481A008504EB;
+			productRefGroup = 3012B1261BAA481A008504EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3012B1241BAA481A008504EB /* IDZSwiftCommonCryptoCarthageTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3012B1231BAA481A008504EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3012B1331BAA481A008504EB /* LaunchScreen.storyboard in Resources */,
+				3012B1301BAA481A008504EB /* Assets.xcassets in Resources */,
+				3012B12E1BAA481A008504EB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3012B1211BAA481A008504EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3012B12B1BAA481A008504EB /* ViewController.swift in Sources */,
+				3012B1291BAA481A008504EB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3012B12C1BAA481A008504EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3012B12D1BAA481A008504EB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3012B1311BAA481A008504EB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3012B1321BAA481A008504EB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3012B1351BAA481A008504EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3012B1361BAA481A008504EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3012B1381BAA481A008504EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = IDZSwiftCommonCryptoCarthageTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosdeveloperzone.IDZSwiftCommonCryptoCarthageTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3012B1391BAA481A008504EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = IDZSwiftCommonCryptoCarthageTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iosdeveloperzone.IDZSwiftCommonCryptoCarthageTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3012B1201BAA481A008504EB /* Build configuration list for PBXProject "IDZSwiftCommonCryptoCarthageTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3012B1351BAA481A008504EB /* Debug */,
+				3012B1361BAA481A008504EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3012B1371BAA481A008504EB /* Build configuration list for PBXNativeTarget "IDZSwiftCommonCryptoCarthageTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3012B1381BAA481A008504EB /* Debug */,
+				3012B1391BAA481A008504EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3012B11D1BAA481A008504EB /* Project object */;
+}
