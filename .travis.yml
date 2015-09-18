@@ -4,9 +4,9 @@ before_install:
 - brew update
 - brew install carthage
 install:
+- ./import_certs
 - carthage bootstrap --verbose
 script:
-- ./import_certs
 - xcodebuild build -scheme IDZSwiftCommonCryptoCarthageTest -destination 'platform=iOS
   Simulator,name=iPhone 6,OS=8.1'
 - ./delete_keychain
