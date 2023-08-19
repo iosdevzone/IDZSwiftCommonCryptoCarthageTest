@@ -1,8 +1,7 @@
 # IDZSwiftCommonCryptoCarthageTest 
-[![Build Status](https://travis-ci.org/iosdevzone/IDZSwiftCommonCryptoCarthageTest.svg?branch=master)](https://travis-ci.org/iosdevzone/IDZSwiftCommonCryptoCarthageTest)
 
-A simple app project to test building and linking against IDZSwiftCommonCrypto using Carthage
+This is a simple project to verify the `IDZSwiftCommonCrypto` can be use with `carthage`.
 
-This is currently failing because there is no developer cert. This can be solved using Travis encrypted environment variables (see http://docs.travis-ci.com/user/environment-variables/#Encrypted-Variables) and some scripts from Carthage (see https://github.com/Carthage/Carthage/tree/master/script).
+After cloning the project run `carthage bootstrap --use-xcframewoks` to build `IDSSwiftCommonCrypto`.
 
-
+Then open the Xcode project and ensure it can build and run.
