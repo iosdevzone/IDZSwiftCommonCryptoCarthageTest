@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,9 +12,8 @@
 		3012B12E1BAA481A008504EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3012B12C1BAA481A008504EB /* Main.storyboard */; };
 		3012B1301BAA481A008504EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3012B12F1BAA481A008504EB /* Assets.xcassets */; };
 		3012B1331BAA481A008504EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3012B1311BAA481A008504EB /* LaunchScreen.storyboard */; };
-		3012B13B1BAA4945008504EB /* IDZSwiftCommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3012B13A1BAA4945008504EB /* IDZSwiftCommonCrypto.framework */; };
-		3012B13C1BAA49B0008504EB /* IDZSwiftCommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3012B13A1BAA4945008504EB /* IDZSwiftCommonCrypto.framework */; };
-		3012B13D1BAA49B0008504EB /* IDZSwiftCommonCrypto.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3012B13A1BAA4945008504EB /* IDZSwiftCommonCrypto.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3079C8102A911EF800A4A2E3 /* IDZSwiftCommonCrypto.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3079C80F2A911EF800A4A2E3 /* IDZSwiftCommonCrypto.xcframework */; };
+		3079C8112A911EF800A4A2E3 /* IDZSwiftCommonCrypto.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3079C80F2A911EF800A4A2E3 /* IDZSwiftCommonCrypto.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +23,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				3012B13D1BAA49B0008504EB /* IDZSwiftCommonCrypto.framework in Embed Frameworks */,
+				3079C8112A911EF800A4A2E3 /* IDZSwiftCommonCrypto.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -39,7 +38,7 @@
 		3012B12F1BAA481A008504EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3012B1321BAA481A008504EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3012B1341BAA481A008504EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3012B13A1BAA4945008504EB /* IDZSwiftCommonCrypto.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IDZSwiftCommonCrypto.framework; path = Carthage/Build/iOS/IDZSwiftCommonCrypto.framework; sourceTree = SOURCE_ROOT; };
+		3079C80F2A911EF800A4A2E3 /* IDZSwiftCommonCrypto.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = IDZSwiftCommonCrypto.xcframework; path = Carthage/Build/IDZSwiftCommonCrypto.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,8 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3012B13C1BAA49B0008504EB /* IDZSwiftCommonCrypto.framework in Frameworks */,
-				3012B13B1BAA4945008504EB /* IDZSwiftCommonCrypto.framework in Frameworks */,
+				3079C8102A911EF800A4A2E3 /* IDZSwiftCommonCrypto.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +58,7 @@
 			children = (
 				3012B1271BAA481A008504EB /* IDZSwiftCommonCryptoCarthageTest */,
 				3012B1261BAA481A008504EB /* Products */,
+				3079C80E2A911EF800A4A2E3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -80,9 +79,16 @@
 				3012B12F1BAA481A008504EB /* Assets.xcassets */,
 				3012B1311BAA481A008504EB /* LaunchScreen.storyboard */,
 				3012B1341BAA481A008504EB /* Info.plist */,
-				3012B13A1BAA4945008504EB /* IDZSwiftCommonCrypto.framework */,
 			);
 			path = IDZSwiftCommonCryptoCarthageTest;
+			sourceTree = "<group>";
+		};
+		3079C80E2A911EF800A4A2E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3079C80F2A911EF800A4A2E3 /* IDZSwiftCommonCrypto.xcframework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +132,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -276,9 +283,14 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = IDZSwiftCommonCryptoCarthageTest/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.iosdeveloperzone.IDZSwiftCommonCryptoCarthageTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -291,9 +303,14 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = IDZSwiftCommonCryptoCarthageTest/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.iosdeveloperzone.IDZSwiftCommonCryptoCarthageTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
